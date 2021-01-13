@@ -1,0 +1,3 @@
+<myForm id="__form" models="{{models}}" rules="{{rules}}" class="{{extClass}}">
+    <slot></slot>
+</myForm>
