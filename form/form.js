@@ -210,7 +210,8 @@ Component({
 
             if (!this.isInit) {
                 this.isInit = true;
-                return newVal;
+                this.formValidator.setModel(newVal);
+                return  
             }
             this.formValidator.setModel(newVal);
             this.isInit = true;
